@@ -11,4 +11,6 @@ class User < ActiveRecord::Base
 	validates_presence_of :name
 
   # attr_accessible :title, :body
+
+  has_many :pins
 end
